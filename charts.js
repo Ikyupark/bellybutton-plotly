@@ -68,7 +68,7 @@ function buildCharts(sample) {
       sampleobject.id == sample);
       
     //  5. Create a variable that holds the first sample in the array.
-    var result = resultarray[0]
+    var result = resultsarray[0]
 
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
@@ -145,7 +145,7 @@ function buildCharts(sample) {
     //Gauge
 
      // Create a variable that holds the first sample in the metadata array.
-     var metaresult = resultArray[0];
+     var metaresult = resultsarray[0];
  
  
      // Create a variable that holds the washing frequency.
